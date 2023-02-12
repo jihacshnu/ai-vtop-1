@@ -9,7 +9,7 @@ const Uncore = () => {
                     <table style={{ border: "1", cellspacing: "0" }}>
                         <thead>
                             <tr>
-                                <th rowspan={2}>
+                                <th rowSpan={2}>
                                     Course Structure:
                                 </th>
                                 <th >
@@ -34,14 +34,17 @@ const Uncore = () => {
                                     Total
 
                                 </th>
+                            
                             </tr>
+                           
+                            
                             <tr>
                                 <td >
 
                                     55
 
                                 </td>
-                                <td >
+                                <td>
 
                                     15
 
@@ -51,7 +54,8 @@ const Uncore = () => {
                                     69
 
                                 </td>
-                                <td >
+                                <td>
+
 
                                     21
 
@@ -61,7 +65,7 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-                        </thead>
+                            </thead>   
                     </table>
 
 
@@ -81,9 +85,10 @@ const Uncore = () => {
                                     </th>
                                 </tr>
                             </thead>
-                            <thead>
+                            <tbody>
+                            {/* <thead> */}
                                 <tr align="center">
-                                    <th colspan="3" >
+                                    <th colSpan="3" >
 
                                         Natural Science Core
 
@@ -95,7 +100,8 @@ const Uncore = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
+                           
                             <tr>
                                 <td >
 
@@ -227,20 +233,20 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colspan={3} >
+                            {/* <thead> */}
+                                <tr  align= "center" >
+                                    <th colSpan={3} >
 
                                         Basic Engineering Sciences Core
 
                                     </th>
-                                    <th >
+                                    <th>
 
                                         12 credits
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
                                 </td>
@@ -301,9 +307,9 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colspan={3} >
+                            {/* <thead> */}
+                                <tr align= "center">
+                                    <th colSpan={3} >
 
                                         Skill Development Courses
 
@@ -314,7 +320,7 @@ const Uncore = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
 
                             <tr>
                                 <td >
@@ -417,22 +423,22 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colspan={3} >
+                            {/* <thead> */}
+                                <tr align= "center">
+                                    <th colSpan={3} >
 
 
                                         Humanities Social Science &amp; Management Core
 
 
                                     </th>
-                                    <th >
+                                    <th>
 
                                         7 credits
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
 
                             <tr>
                                 <td >
@@ -500,9 +506,9 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colspan={3} >
+                            {/* <thead> */}
+                                <tr align= "center">
+                                    <th colSpan={3} >
 
                                         Projects & Internships
 
@@ -513,7 +519,7 @@ const Uncore = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
 
@@ -635,7 +641,7 @@ const Uncore = () => {
 
                                 </td>
                             </tr>
-
+                            </tbody>
                         </table>
                     </div>
                 </center>
