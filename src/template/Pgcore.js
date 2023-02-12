@@ -81,6 +81,7 @@ const Pgcore = () => {
                   </th>
                 </tr>
               </thead>
+              <tbody>
               <tr>
               <td>
 
@@ -370,7 +371,7 @@ const Pgcore = () => {
 
                 </td>
               </tr>
-
+              </tbody>
             </table>
           </div>
         </center>
