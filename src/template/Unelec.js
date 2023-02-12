@@ -10,7 +10,7 @@ const Unelec = () => {
                     <table style={{ cellspacing: "0" }} >
                         <thead>
                             <tr>
-                                <th rowSpan={2}>
+                                <th rowSpan='2'>
                                     Course Structure
 
                                 </th>
@@ -86,9 +86,10 @@ const Unelec = () => {
                                     </th>
                                 </tr>
                             </thead>
-                            <thead>
-                                <tr sryle={{ align: "center" }}>
-                                    <th colSpan={3} >
+                            <tbody>
+                            {/* <thead> */}
+                                <tr  align= "center" >
+                                    <th colSpan="3" >
 
 
                                         Natural Science Electives (Select any 2 Subject)
@@ -101,7 +102,7 @@ const Unelec = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
 
@@ -249,9 +250,9 @@ const Unelec = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colSpan={3}>
+                            {/* <thead> */}
+                                <tr align= "center" >
+                                    <th colSpan='3'>
 
 
                                         Multidisciplinary Electives (Select any 2 Subject)
@@ -264,7 +265,7 @@ const Unelec = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
 
@@ -466,9 +467,9 @@ const Unelec = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colSpan={3}>
+                            {/* <thead> */}
+                                <tr align= "center" >
+                                    <th colSpan='3'>
 
                                         Humanities, Social Sciences and Managemnet Electives
                                         (Select any 1 Subject)
@@ -481,7 +482,7 @@ const Unelec = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
                                     HUM1002
@@ -710,9 +711,9 @@ const Unelec = () => {
 
                                 </td>
                             </tr>
-                            <thead>
-                                <tr style={{ align: "center" }}>
-                                    <th colSpan={3}>
+                            {/* <thead> */}
+                                <tr align= "center" >
+                                    <th colSpan='3'>
 
                                         Free Electives
 
@@ -723,7 +724,7 @@ const Unelec = () => {
 
                                     </th>
                                 </tr>
-                            </thead>
+                            {/* </thead> */}
                             <tr>
                                 <td >
 
@@ -739,7 +740,7 @@ const Unelec = () => {
                                     LT
 
                                 </td>
-                                <td rowSpan={2} >
+                                <td rowSpan='2' >
 
                                     6
 
@@ -761,7 +762,7 @@ const Unelec = () => {
 
                                 </td>
                             </tr>
-
+                            </tbody>
                         </table>
                     </div>
                 </center>
@@ -769,5 +770,4 @@ const Unelec = () => {
         </div>
     )
 }
-
 export default Unelec
