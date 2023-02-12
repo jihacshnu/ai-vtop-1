@@ -82,7 +82,8 @@ const Pgelec = () => {
                   </th>
                 </tr>
               </thead>
-              <thead>
+              <tbody>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -91,7 +92,7 @@ const Pgelec = () => {
                   </th>
                 </tr>
 
-              </thead>
+              {/* </thead> */}
               <tr>
               <td>
 
@@ -258,7 +259,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -268,7 +269,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
 
@@ -373,7 +374,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -381,7 +382,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
 
               <tr>
                 <td>
@@ -481,7 +482,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -489,7 +490,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
 
@@ -629,7 +630,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -637,7 +638,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
                 </td>
@@ -752,7 +753,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -760,7 +761,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
 
@@ -920,7 +921,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -928,7 +929,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
 
@@ -1068,7 +1069,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
-              <thead>
+              {/* <thead> */}
                 <tr align="center">
                   <th colSpan={3} >
 
@@ -1076,7 +1077,7 @@ const Pgelec = () => {
 
                   </th>
                 </tr>
-              </thead>
+              {/* </thead> */}
               <tr>
                 <td>
                 </td>
@@ -1129,6 +1130,7 @@ const Pgelec = () => {
 
                 </td>
               </tr>
+              </tbody>
             </table>
           </div></center>
       </div>
